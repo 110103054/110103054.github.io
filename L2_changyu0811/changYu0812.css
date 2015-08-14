@@ -1,0 +1,31 @@
+h1, h2 {
+	font-family: monospace; counter-increment: 
+	font-weight: bold;
+}
+h1 {
+	font-family: 'Indie Flower', cursive;
+	font-size: 65px;
+}
+h2 {
+	background-color: #A68EFD;
+	color: white;
+}
+ol {
+	margin-right: 1300px;
+	border-radius: 15px;
+	border-color: #FA6B6B;
+    border-width:1px;
+    border-style: dashed;
+    background-color: #89A7FE;
+}
+ul {
+	font-family: 'Indie Flower', cursive;
+	font-size:30px;
+	font-weight:bold; 
+	padding-left: 1cm;
+	padding-top: 2cm;
+	padding-right: 1cm;
+	background-image: url(http://www.menucool.com/slider/jsImgSlider/images/image-slider-2.jpg); 
+	background-repeat: no-repeat;
+	border-radius: 15px;
+}
