@@ -1,0 +1,131 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #F9ECA2;
+}
+
+.bkbackground {
+    background-color: #9A5927;
+    width: 100%;
+    height: 43px;
+    position: fixed;
+    margin-top: 0px;
+    z-index: 1;
+}
+
+.nav {
+    background-color: #9A5927;
+    width: 70%;
+    height: 6.5%;
+    position: absolute;
+    margin-left: 35%;
+    margin-right: 10px;
+}
+
+.one {
+    background-color: #9A5927;
+    position: fixed;
+    width: 130%;
+    height: 40px;
+    margin-top: 0px;
+}
+
+#context {
+    height: 400px;
+    top: 10%;
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    line-height: 22pt;
+}
+
+h2 {
+    color: white;
+    font-size: 24pt;
+    background: #9A5927;
+    text-align: center;
+}
+
+h4 {
+    background: #9A5927;
+    color: white;
+    font-size: 18pt;
+    text-align: center;
+}
+
+ul li {
+    float: left;
+    display: block;
+    background-color: #9A5927;
+    width: 100px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12pt;
+}
+
+ul li a {
+    color: #F9F59A;
+    text-decoration: none;
+}
+
+ul li ul {
+    display: none;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+ul li:hover {
+    background-color: #ba7947;
+}
+
+ul li ul li:hover {
+    background-color: #F9F59A;
+}
+
+ul li ul li:hover a {
+    color: #9A5927
+}
+
+ul li ul {
+    z-index: 1;
+}
+
+.one {
+    z-index: 1;
+}
+
+#bk {
+    z-index: -1;
+}
+
+div.tablesheet {
+    position: absolute;
+    margin-top: 1000px;
+    margin-left: 470px;
+    padding: 1pt;
+    background-color: white;
+}
+
+div#good {
+    width: 450px;
+    padding-top: 5pt;
+    padding-bottom: 5pt;
+}
+
+div#bad {
+    width: 450px;
+    padding: 5pt;
+}
+
+div#feature {
+    width: 450px;
+    padding: 5pt;
+}

@@ -1,0 +1,36 @@
+.wrap{
+	background-color: #DD2929;
+	width: 1600px;
+	margin:auto;
+	border-width: 3px;
+	border-color: blue;
+}
+div.right{
+	height: 100px;
+	width: 500px;
+	background-color: #263CF5;
+	color: white;
+	float: right;
+	margin: 10px;
+}
+
+div.left{
+	height: 100px;
+	width: 500px;
+	background-color: #263CF5;
+	color: white;
+	margin-right:10px;
+	float: left;
+	margin: 10px; 
+}
+
+div.center{
+	height: 100px;
+	width: 500px;
+	background-color: #263CF5;
+	color: white;
+	margin-right:10px;
+	float: right;
+	margin: 10px; 
+
+}

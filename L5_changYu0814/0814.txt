@@ -1,0 +1,18 @@
+	width:100%;
+	height: 4.5%;
+	position: absolute;
+	top: 0px;
+	margin-left: 600px;
+	text-align: center;
+
+
+
+<h2>簘獹瓜挪</h2>
+        <img src="img/beauty.gif" alt="">
+        <h4 id="g1">簘獹难</h4>
+        <p>硂琌–ら﹚祇扳疭籹难.ㄓだ㎡琌琌场и谋眔ゑ耕ぃ稲
+        </p>
+        <img src="img/butter.gif" alt="">
+        <h4 id="g2">イ猳难</h4>
+        <p>硂琌簘獹イ猳难</p>
+    </div>
