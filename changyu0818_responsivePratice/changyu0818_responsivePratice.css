@@ -1,0 +1,181 @@
+     body {
+         width: 100%;
+     }
+     
+     .navbar-header {
+         float: left;
+         font-family: 'Indie Flower', cursive;
+         font-size: 22px;
+         padding-top: 5pt;
+         padding-bottom: 2pt;
+         padding-left: 20pt;
+         text-decoration: none;
+         color: white;
+     }
+     
+     .navbar-brand {
+         text-decoration: none;
+         color: white;
+     }
+     
+     .bar {
+         height: 25px;
+         width: 100%;
+         background: black;
+         padding-top: 5pt;
+         padding-bottom: 2pt;
+     }
+     
+     .nav {
+         background: black;
+     }
+     
+     ul li {
+         float: left;
+         display: block;
+         background: black;
+         width: 80px;
+         padding-top: 4pt;
+         text-align: center;
+     }
+     
+     ul li a {
+         color: white;
+         text-decoration: none;
+     }
+     
+     ul li ul {
+         display: none;
+     }
+     
+     ul li:hover ul {
+         display: block;
+         padding-top: 4.5pt;
+     }
+     
+     ul li:hover {
+         background-color: black;
+     }
+     
+     ul li ul li:hover {
+         background-color: #E0E0D6;
+     }
+     
+     ul li ul li:hover a {
+         z-index: +1;
+         color: white;
+     }
+     
+     ul li ul {
+         z-index: +1;
+     }
+     
+     .head {
+         background: rgba(200, 195, 180, 0.2);
+         width: 70%;
+         margin-left: 10%;
+         margin-top: 10%;
+         height: 30%;
+         padding: 20pt;
+     }
+     
+     .button {
+         width: 120px;
+         border-top: 1px solid #0b5d8c;
+         background: #21628a;
+         background: -webkit-gradient(linear, left top, left bottom, from(#125782), to(#21628a));
+         background: -webkit-linear-gradient(top, #125782, #21628a);
+         background: -moz-linear-gradient(top, #125782, #21628a);
+         background: -ms-linear-gradient(top, #125782, #21628a);
+         background: -o-linear-gradient(top, #125782, #21628a);
+         padding: 12.5px 25px;
+         -webkit-border-radius: 8px;
+         -moz-border-radius: 8px;
+         border-radius: 8px;
+         -webkit-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+         -moz-box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+         box-shadow: rgba(0, 0, 0, 1) 0 1px 0;
+         text-shadow: rgba(0, 0, 0, .4) 0 1px 0;
+         color: white;
+         font-size: 14px;
+         font-family: Georgia, Serif;
+         text-decoration: none;
+         vertical-align: middle;
+     }
+     
+     .button:hover {
+         border-top-color: #3584b8;
+         background: #3584b8;
+         color: #ffffff;
+         text-decoration: none;
+     }
+     
+     .button:active {
+         border-top-color: #427b9e;
+         background: #427b9e;
+         text-decoration: none;
+     }
+     
+     .container {
+         background: rgba(50, 10, 100, 0.1);
+         width: 70%;
+         margin-left: 15%;
+         margin-top: 5%;
+     }
+     
+     .col1 {
+         background-color: rgba(0, 60, 200, 0.5);
+         border-radius: 10px;
+         padding: 5pt;
+         color: white;
+         margin-top: 5pt;
+         margin-bottom: 5pt;
+     }
+     
+     .col2 {
+         background-color: rgba(50, 60, 250, 0.4);
+         border-radius: 10px;
+         padding: 5pt;
+         color: white;
+         margin-bottom: 5pt;
+     }
+     /*481px 手機*/
+     
+     @media only screen and (min-width: 500px) {
+         .col1 {
+             background-color: rgba(30, 60, 200, 0.5);
+         }
+         .col2 {
+             background-color: rgba(100, 200, 250, 0.4);
+         }
+         [class*="col"] {
+             float: left;
+             width: 43%;
+             margin: 5px;
+         }
+     }
+     /*電腦及更大尺寸平板:961px up*/
+     
+     @media only screen and (min-width: 961px) {
+         .head {
+             margin-top: 5%;
+             z-index: -1;
+         }
+         .container {
+             margin-top: 2%;
+         }
+         .col1 {
+             background-color: rgba(30, 90, 200, 0.5);
+         }
+         .col2 {
+             background-color: rgba(50, 100, 250, 0.4);
+         }
+         [class*="col"] {
+             float: left;
+             width: 28%;
+         }
+         .row {
+             padding-left: 5%;
+             padding-right: 5%;
+         }
+     }

@@ -1,0 +1,57 @@
+*{
+	box-sizing:border-box;
+}
+
+.container{
+	position: relative;
+}
+/*#myCarousel{
+	min-height: 300px;
+	max-width: 600px;
+	margin-left: 100px;
+	margin-right:100px;
+	vertical-align: center;
+}*/
+
+.carousel-inner{
+	min-height: 300px;
+	max-width: 600px;
+	margin-left: 100px;
+	margin-right:100px;
+	vertical-align: center;
+}
+
+h1{
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+}
+h4:after{
+	content: "click me";
+	font-family: 'Indie Flower', cursive;
+	text-align: center;
+
+}
+.row:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.container img{
+	border-radius:50%;
+	width: 100%;
+}
+
+.container img[src$=".png"]{
+	border-radius: 50%;
+	border:dashed;
+}
+[class*="col-"]{
+	float: left;
+	width: 16%;
+	margin: 0.2%;
+	padding: 2%;
+}
+
+a[href^="http"]:after{
+	content: "i am real";
+
