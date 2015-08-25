@@ -1,0 +1,88 @@
+body {
+    height: 10%;
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    background-color: rgba(100, 50, 80, 0.2);
+    background-image: url(http://wowslider.com/sliders/demo-5/data/images/sweden.jpg);
+    background-repeat: no-repeat;
+    background-position: 500px 0px;
+    margin-top: 5%;
+    height: 300px;
+    vertical-align: auto;
+    padding-top: 5%;
+    padding-left: 2%;
+}
+
+#myCarousel {
+    width: 50%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+.container {
+    background: rgba(50, 10, 100, 0.1);
+    padding: 20pt;
+}
+
+[class*="col"] {
+    float: left;
+    width: 28%;
+}
+
+.col7 {
+    background: rgba(150, 80, 150, 0.5);
+    position: relative;
+    left: 1250px;
+    height: 800px;
+}
+
+.col1 {
+    background-color: rgba(0, 60, 200, 0.5);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5pt;
+    color: white;
+}
+
+.col2 {
+    background-color: rgba(50, 60, 250, 0.4);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5pt;
+    color: white;
+}
+
+.col3 {
+    background-color: rgba(0, 60, 200, 0.5);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5pt;
+    color: white;
+}
+
+.col4 {
+    background-color: rgba(50, 60, 250, 0.4);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5pt;
+    color: white;
+}
+
+.col5 {
+    background-color: rgba(0, 60, 200, 0.5);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5pt;
+    color: white;
+}
+
+.col6 {
+    background-color: rgba(50, 60, 250, 0.4);
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5pt;
+    color: white;
+}
