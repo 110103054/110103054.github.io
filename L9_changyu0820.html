@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href='http://fonts.googleapis.com/css?family=Devonshire&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Guess number practice</title>
+    <style type="text/css">
+        .te {
+        font-family: 'Devonshire', cursive;
+        font-size:24pt;
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 45%;
+        border: gray;
+        border-style: ridge;
+        border-width: medium;
+        padding: 20px;
+
+    }
+
+    </style>
+
+</head>
+<body>
+    <div class="te">Click here to test!<br>
+    <button onclick="myFunction()" aline:center>try it</button>
+    </div>
+    <script type="text/javascript">
+    
+    function myFunction() {
+        var guessNum = prompt("Guess the number you like!");
+        var answerNum = 1234;
+        var countA = 0;
+        var countB = 0;
+        var i, j;
+        var ans = answerNum.toString();
+        var gue = guessNum.toString();
+        var ansL = ans.length;
+        var guesL = gue.length;
+        for (i = 0; i < ansL; i++) {
+            for (j = 0; j < guesL; j++) {
+                if (i == j && ans[i] == gue[j]) {
+                    countA++;
+                } else if (ans[i] == gue[j]) {
+                    countB++;
+                }
+            }
+        }
+        document.write(countA + "A" + countB + "B");
+    };
+    </script>
+</body>
+
+</html>
