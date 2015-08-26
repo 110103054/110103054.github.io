@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta chatset="utf-8">
+    <link href='http://fonts.googleapis.com/css?family=Devonshire&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <title>Selection seat</title>
+    <style type="text/css">
+    p {
+        font-family: 'Devonshire', cursive;
+        font-size: 24pt;
+    }
+    
+    .te {
+        text-align: center;
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        border: gray;
+        border-style: ridge;
+        border-width: medium;
+        padding: 20px;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="te">
+        <p>Click here to test!</p>
+        <br>
+        <button onclick="javascript:window.location.reload()">try it</button>
+        <br>
+        <script type="text/javascript">
+        var seat = 10;
+        var seated = 0;
+        var empty = 0;
+        var i;
+        var seatdefult = new Array();
+        for (i = 0; i < seat; i++) {
+            seatdefult[i] = Math.round(Math.random());
+            if (seatdefult[i] >= 1) {
+                seated++;
+                document.write("no." + i + "seat: is seated" + "<br>");
+                /*document.getElementById("empty2").src = "seat_avail.png";*/
+            }
+
+        }
+        document.write("The remainder of the seat is:" + (seat - seated) + "<br>");
+        </script>
+        <br>
+        <div onload="myFunction();">
+            <img id="empty0" src="seat_unavail.png">
+            <img id="empty1" src="seat_unavail.png">
+            <img id="empty2" src="seat_unavail.png">
+            <img id="empty3" src="seat_unavail.png">
+            <img id="empty4" src="seat_unavail.png">
+            <img id="empty5" src="seat_unavail.png">
+            <img id="empty6" src="seat_unavail.png">
+            <img id="empty7" src="seat_unavail.png">
+            <img id="empty8" src="seat_unavail.png">
+            <img id="empty9" src="seat_unavail.png">
+        </div>
+    </div>
+</body>
+
+</html>
